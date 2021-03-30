@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+<!-- "can place for loop" {% for i in range(0,10) %} <p>Hello</p> {% endfor %} "make hello 10 times" -->
+<!-- "can place if statements" {% if i  % 2 == 1 %} <p>x</p> {% endif %} "print x if the statement is true"  if <p>{{X}}</p> will print the value of x-->
+<!-- can else add {% else %} under if statement -->
+<!-- {{}} variable is a global variable and can be from main.py, it can be a list -->
+<h1>
+    Home Page!
+</h1>
+<p>
+    Hello!
+</p>
+</body>
+</html>
